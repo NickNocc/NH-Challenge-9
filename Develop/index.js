@@ -6,6 +6,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questionPrompt = () => {
+
     return inquirer.prompt([
         {
             type: `input`,
@@ -32,9 +33,10 @@ const questionPrompt = () => {
             default: false
         },
         {
-            type: `input`,
+            type: `checkbox`,
             name: `tableofcontents`,
-            message: `Provide section titles for your table of contents seperated by commas.`,
+            message: `Please select which sections you wish to have in your table of contents.`,
+            choices: [`Description`, `Installation`, `Usage`, `Tests`, `Features`, `Contributing`, `Credits`, `License`],
             when: ({ confirmTable }) => confirmTable
         },
         {

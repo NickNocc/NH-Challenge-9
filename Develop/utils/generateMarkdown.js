@@ -10,10 +10,24 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
+
+const generateTable = tableofcontentsUser => {
+  if (!tableofcontentsUser) {
+    return "";
+  }
+  var test = tableofcontentsUser;
+  console.log(test);
+  for (let i = 0; i < test.length; i++) {
+    console.log(test[i]);
+    let testy = test[i];
+    return `* [` + testy + `](#` + testy + `)`;
+  }
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   console.log(data);
-  const {tableOC, tests, features, credits, ...otherData} = data;
+  const {tableofcontents, tests, features, credits, ...otherData} = data;
   return `# ${otherData.title}
   [![Test](this is a test)]
 
@@ -21,9 +35,7 @@ function generateMarkdown(data) {
   
   ${otherData.description}
 
-  ## Table of Contents
-
-  ${tableOC}
+  ${generateTable(tableofcontents)}
 
   ## Installation
 
