@@ -19,7 +19,7 @@ function generateMarkdown(data) {
 
   ## Description
   
-  $otherDataa.description}
+  ${otherData.description}
 
   ## Table of Contents
 

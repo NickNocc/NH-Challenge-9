@@ -77,9 +77,9 @@ const questionPrompt = () => {
 }
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(fileContent) {
     return new Promise((resolve, reject) => {
-        fs.writeFile("./dist/readMe.md", data, err => {
+        fs.writeFile("./dist/readMe.md", fileContent, err => {
             if (err) {
                 reject(err);
                 return;
@@ -100,3 +100,12 @@ function writeToFile(fileName, data) {
 // Function call to initialize app
 questionPrompt()
     .then(generateMarkdown)
+    .then(pageMarkdown => {
+        return writeToFile(pageMarkdown);
+    })
+    .then(writeFileResponse =>{
+        console.log(writeFileResponse);
+    })
+    .catch(err => {
+        console.log(err);
+    })
