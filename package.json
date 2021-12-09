@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/NickNocc/NH-Challenge-9/issues"
   },
-  "homepage": "https://github.com/NickNocc/NH-Challenge-9#readme"
+  "homepage": "https://github.com/NickNocc/NH-Challenge-9#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }
