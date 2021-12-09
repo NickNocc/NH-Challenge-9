@@ -15,13 +15,13 @@ const generateTable = tableofcontentsUser => {
   if (!tableofcontentsUser) {
     return "";
   }
-  var test = tableofcontentsUser;
-  console.log(test);
-  for (let i = 0; i < test.length; i++) {
-    console.log(test[i]);
-    let testy = test[i];
-    return `* [` + testy + `](#` + testy + `)`;
+  let tocString = "";
+  for (let i = 0; i < tableofcontentsUser.length; i++) {
+    console.log(tableofcontentsUser[i]);
+    tocString = tocString.concat(`* [` + tableofcontentsUser[i] + `](#` + tableofcontentsUser[i] + `)
+  `);
   }
+  return tocString;
 }
 
 // TODO: Create a function to generate markdown for README

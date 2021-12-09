@@ -5,7 +5,13 @@
   
   2
 
-  * [Installation](#Installation] + )
+  * [Description](#Description)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Tests](#Tests)
+  * [Features](#Features)
+  * [Contributing](#Contributing)
+  
 
   ## Installation
 
