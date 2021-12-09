@@ -1,0 +1,23 @@
+{
+  "name": "nh-challenge-9",
+  "version": "1.0.0",
+  "description": "readme generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickNocc/NH-Challenge-9.git"
+  },
+  "keywords": [
+    "readme",
+    "generator"
+  ],
+  "author": "NickNocc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickNocc/NH-Challenge-9/issues"
+  },
+  "homepage": "https://github.com/NickNocc/NH-Challenge-9#readme"
+}
