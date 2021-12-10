@@ -100,7 +100,7 @@ const questionPrompt = () => {
             type: `list`,
             name: `license`,
             message: `Please select the license you would like to use.`,
-            choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense', `None`],
+            choices: ['AGPL_v3', 'GPL_v3', 'LGPL_v3', 'MPL_2.0', 'Apache_2.0', 'MIT', 'Boost_1.0', 'Unlicense', `None`],
         }
     ])
 }
