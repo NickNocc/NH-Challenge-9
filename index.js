@@ -122,19 +122,17 @@ function writeToFile(fileContent) {
 };
 
 // TODO: Create a function to initialize app
-// function init() {
-//     return inquirer.prompt(questions)
-// };
+
 
 // Function call to initialize app
-questionPrompt()
-    .then(generateMarkdown)
-    .then(pageMarkdown => {
-        return writeToFile(pageMarkdown);
-    })
-    .then(writeFileResponse =>{
-        console.log(writeFileResponse);
-    })
-    .catch(err => {
-        console.log(err);
-    })
+ questionPrompt()
+     .then(generateMarkdown)
+     .then(pageMarkdown => {
+         return writeToFile(pageMarkdown);
+     })
+     .then(writeFileResponse =>{
+         console.log(writeFileResponse);
+     })
+     .catch(err => {
+         console.log(err);
+     })
