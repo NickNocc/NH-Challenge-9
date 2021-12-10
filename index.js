@@ -1,9 +1,11 @@
 // TODO: Include packages needed for this application
+// requires fs, inquirer, and our generateMarkdown.js file
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./Develop/utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
+// array of questions for the user to answer
 const questionPrompt = () => {
 
     return inquirer.prompt([
@@ -11,6 +13,7 @@ const questionPrompt = () => {
             type: `input`,
             name: `username`,
             message: `Please enter your GitHub username. (Required)`,
+            // validate messages require the user to answer and the prompt will not continue otherwise
             validate: usernameInput => {
                 if (usernameInput) {
                     return true;
@@ -85,7 +88,7 @@ const questionPrompt = () => {
         {
             type: `input`,
             name: `usage`,
-            message: `Enter usage information for your project. Add images with relative file path.`
+            message: `Enter usage information for your project. Add images with relative file path (wrapped in parenthesis).`
         },
         {
             type: `input`,
@@ -122,6 +125,7 @@ const questionPrompt = () => {
 }
 
 // TODO: Create a function to write README file
+// function to write the file, called later after the prompt is completed
 function writeToFile(fileContent) {
     return new Promise((resolve, reject) => {
         fs.writeFile("./develop/dist/readme.md", fileContent, err => {
@@ -141,13 +145,17 @@ function writeToFile(fileContent) {
 
 
 // Function call to initialize app
+// Starts the question prompt for the user
  questionPrompt()
+    // Creates our readme then sends it to writefile for it to be created
      .then(generateMarkdown)
      .then(pageMarkdown => {
+         console.log("Readme being created, please wait.");
          return writeToFile(pageMarkdown);
      })
+    //  Shows the user their answers once the file is written
      .then(writeFileResponse =>{
-         console.log(writeFileResponse);
+         console.log(("Readme Generated in the dist folder!"));
      })
      .catch(err => {
          console.log(err);

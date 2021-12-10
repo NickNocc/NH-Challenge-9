@@ -24,7 +24,6 @@ const generateTable = tableofcontentsUser => {
   }
   let tocString = "";
   for (let i = 0; i < tableofcontentsUser.length; i++) {
-    console.log(tableofcontentsUser[i]);
     tocString = tocString.concat(`* [` + tableofcontentsUser[i] + `](#` + tableofcontentsUser[i] + `)
   `);
   }
@@ -54,7 +53,8 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  ${otherData.questions}
+  ${otherData.questions} </br>
+  
   GitHub: https://github.com/${otherData.username} </br>
   Email: ${otherData.email}
 
