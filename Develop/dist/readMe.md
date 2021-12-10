@@ -1,37 +1,42 @@
-# 3
-  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/1/2?style=flat&logo=appveyor)
-  ![badge](https://img.shields.io/badge/license-Apache_2.0-brightgreen)
+# Readme Generator
+  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/NickNocc/NH-Challenge-9?style=flat&logo=appveyor)
+  ![badge](https://img.shields.io/badge/license-AGPL_v3-brightgreen)
   ## Description
   
-  4
+  s
 
   
 
   ## Installation
 
-  5
+  d
 
   ## Usage
 
-  
+  a
+
+  ## Questions
+
+  GitHub: https://github.com/NickNocc </br>
+  Email: haretakis4@gmail.com
 
   ## Tests
 
-  
+  a
 
   ## Features
 
-  
+  sd
 
   ## Contributing
 
-  
+  dsa
 
   ## Credits
 
-  
+  df
 
   ## License
 
-  Apache_2.0
+  AGPL_v3
 

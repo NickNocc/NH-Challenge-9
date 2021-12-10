@@ -52,6 +52,11 @@ function generateMarkdown(data) {
 
   ${otherData.usage}
 
+  ## Questions
+
+  GitHub: https://github.com/${otherData.username} </br>
+  Email: ${otherData.email}
+
   ## Tests
 
   ${tests}

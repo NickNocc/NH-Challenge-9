@@ -24,6 +24,19 @@ const questionPrompt = () => {
         },
         {
             type: `input`,
+            name: `email`,
+            message: `Please enter your email address for user questions. (Required)`,
+            validate: emailInput => {
+                if (emailInput) {
+                    return true;
+                } else {
+                    console.log("Please enter your email!");
+                    return false;
+                } 
+            }
+        },
+        {
+            type: `input`,
             name: `repoName`,
             message: `Please enter the repo name for your project. (Required)`,
             validate: repoNameInput => {
