@@ -2,7 +2,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const { resolve } = require('path');
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./Develop/utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questionPrompt = () => {
@@ -81,7 +81,7 @@ const questionPrompt = () => {
 // TODO: Create a function to write README file
 function writeToFile(fileContent) {
     return new Promise((resolve, reject) => {
-        fs.writeFile("./dist/readMe.md", fileContent, err => {
+        fs.writeFile("./develop/dist/readme.md", fileContent, err => {
             if (err) {
                 reject(err);
                 return;
@@ -103,6 +103,7 @@ function writeToFile(fileContent) {
 questionPrompt()
     .then(generateMarkdown)
     .then(pageMarkdown => {
+        console.log(licenses);
         return writeToFile(pageMarkdown);
     })
     .then(writeFileResponse =>{
