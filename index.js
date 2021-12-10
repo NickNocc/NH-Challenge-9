@@ -3,11 +3,38 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const { resolve } = require('path');
 const generateMarkdown = require('./Develop/utils/generateMarkdown');
+const api = require("./develop/utils/api.js");
 
 // TODO: Create an array of questions for user input
 const questionPrompt = () => {
 
     return inquirer.prompt([
+        {
+            type: `input`,
+            name: `username`,
+            message: `Please enter your GitHub username. (Required)`,
+            validate: usernameInput => {
+                if (usernameInput) {
+                    return true;
+                } else {
+                    console.log("Please enter your username!");
+                    return false;
+                } 
+            }
+        },
+        {
+            type: `input`,
+            name: `repoName`,
+            message: `Please enter the repo name for your project. (Required)`,
+            validate: repoNameInput => {
+                if (repoNameInput) {
+                    return true;
+                } else {
+                    console.log("Please enter the repo name for your project!");
+                    return false;
+                } 
+            }
+        },
         {
             type: `input`,
             name: `title`,

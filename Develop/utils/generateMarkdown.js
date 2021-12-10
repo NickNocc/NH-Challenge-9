@@ -29,8 +29,7 @@ function generateMarkdown(data) {
   console.log(data);
   const {tableofcontents, tests, features, credits, ...otherData} = data;
   return `# ${otherData.title}
-  [![Test](this is a test)]
-
+  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${otherData.username}/${otherData.repoName}?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${otherData.username}/${otherData.repo}?style=flat&logo=appveyor)
   ## Description
   
   ${otherData.description}

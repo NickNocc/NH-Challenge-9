@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/NickNocc/NH-Challenge-9#readme",
   "dependencies": {
+    "axios": "^0.24.0",
     "inquirer": "^8.2.0"
   }
 }
