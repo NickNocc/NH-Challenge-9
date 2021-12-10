@@ -74,6 +74,11 @@ const questionPrompt = () => {
             name: `licenses`,
             message: `What liscence`,
             choices: [`Choice 1`, `Choice 2`, `Choice 3`, `Choice 4`, `Choice 5`]
+        },
+        {
+            type: `list`,
+            name: `license`,
+            choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
         }
     ])
 }
@@ -103,7 +108,11 @@ function writeToFile(fileContent) {
 questionPrompt()
     .then(generateMarkdown)
     .then(pageMarkdown => {
+<<<<<<< Updated upstream:index.js
         console.log(licenses);
+=======
+        console.log("test");
+>>>>>>> Stashed changes:Develop/index.js
         return writeToFile(pageMarkdown);
     })
     .then(writeFileResponse =>{
