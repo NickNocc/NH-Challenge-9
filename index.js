@@ -1,9 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { resolve } = require('path');
 const generateMarkdown = require('./Develop/utils/generateMarkdown');
-const api = require("./develop/utils/api.js");
 
 // TODO: Create an array of questions for user input
 const questionPrompt = () => {
@@ -88,6 +86,11 @@ const questionPrompt = () => {
             type: `input`,
             name: `usage`,
             message: `Enter usage information for your project. Add images with relative file path.`
+        },
+        {
+            type: `input`,
+            name: `questions`,
+            message: `Please provide instructions for the questions section`
         },
         {
             type: `input`,

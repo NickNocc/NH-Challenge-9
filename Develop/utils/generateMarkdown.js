@@ -37,7 +37,7 @@ function generateMarkdown(data) {
   const {tableofcontents, tests, features, credits, ...otherData} = data;
   return `# ${otherData.title}
   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${otherData.username}/${otherData.repoName}?style=flat&logo=appveyor)
-  ![badge](https://img.shields.io/badge/license-${renderLicenseBadge(otherData.license)}-brightgreen)
+  ![badge](https://img.shields.io/badge/license-${renderLicenseBadge(otherData.license)}-blue)
   ## Description
   
   ${otherData.description}
@@ -54,6 +54,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
+  ${otherData.questions}
   GitHub: https://github.com/${otherData.username} </br>
   Email: ${otherData.email}
 
@@ -75,7 +76,7 @@ function generateMarkdown(data) {
 
   ## License
 
-  ${otherData.license}
+  This project was made with the ${otherData.license} license.
 
 `;
 }
