@@ -1,47 +1,50 @@
 # Readme Generator
-  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/NickNocc/NH-Challenge-9?style=flat&logo=appveyor)
-  ![badge](https://img.shields.io/badge/license-AGPL_v3-blue)
-  ## Description
+![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/NickNocc/NH-Challenge-9?style=flat&logo=appveyor)
+![badge](https://img.shields.io/badge/license-MPL_2.0-blue)
+## Description
   
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Single-player cut-scene respawn Flying Simulator Spyro ban Metal Gear. Xbox Grand Theft Auto IV map role-playing video game PSP console metroidvania. Flip-screen Bullet Hell minigame CoD wall climb secret character sweaty goal chams Gran Turismo console Third-Person. Frag dynamic game difficulty balancing NBA 2K Point-and-click beastiary player versus environment kick capture the flag Nintendo 64 Fighting Game Donkey Kong Devil May Cry The Orange Box.
 
-  * [Description](#Description)
-  * [Installation](#Installation)
-  * [License](#License)
+## Table of Contents 
+* [Description](#Description)
+  
+* [Installation](#Installation)
+  
+* [Usage](#Usage)
   
 
-  ## Installation
+## Installation
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Single-player cut-scene respawn Flying Simulator Spyro ban Metal Gear. Xbox Grand Theft Auto IV map role-playing video game PSP console metroidvania. Flip-screen Bullet Hell minigame CoD wall climb secret character sweaty goal chams Gran Turismo console Third-Person. Frag dynamic game difficulty balancing NBA 2K Point-and-click beastiary player versus environment kick capture the flag Nintendo 64 Fighting Game Donkey Kong Devil May Cry The Orange Box.
 
-  ## Usage
+## Usage
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Single-player cut-scene respawn Flying Simulator Spyro ban Metal Gear. Xbox Grand Theft Auto IV map role-playing video game PSP console metroidvania. Flip-screen Bullet Hell minigame CoD wall climb secret character sweaty goal chams Gran Turismo console Third-Person. Frag dynamic game difficulty balancing NBA 2K Point-and-click beastiary player versus environment kick capture the flag Nintendo 64 Fighting Game Donkey Kong Devil May Cry The Orange Box.
 
-  ## Questions
+## Questions
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </br>
+Single-player cut-scene respawn Flying Simulator Spyro ban Metal Gear. Xbox Grand Theft Auto IV map role-playing video game PSP console metroidvania. Flip-screen Bullet Hell minigame CoD wall climb secret character sweaty goal chams Gran Turismo console Third-Person. Frag dynamic game difficulty balancing NBA 2K Point-and-click beastiary player versus environment kick capture the flag Nintendo 64 Fighting Game Donkey Kong Devil May Cry The Orange Box. </br>
   
-  GitHub: https://github.com/NickNocc </br>
-  Email: haretakis4@gmail.com
+GitHub: https://github.com/NickNocc </br>
+Email: haretakis4@gmail.com
 
-  ## Tests
+## Tests
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Single-player cut-scene respawn Flying Simulator Spyro ban Metal Gear. Xbox Grand Theft Auto IV map role-playing video game PSP console metroidvania. Flip-screen Bullet Hell minigame CoD wall climb secret character sweaty goal chams Gran Turismo console Third-Person. Frag dynamic game difficulty balancing NBA 2K Point-and-click beastiary player versus environment kick capture the flag Nintendo 64 Fighting Game Donkey Kong Devil May Cry The Orange Box.
 
-  ## Features
+## Features
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Single-player cut-scene respawn Flying Simulator Spyro ban Metal Gear. Xbox Grand Theft Auto IV map role-playing video game PSP console metroidvania. Flip-screen Bullet Hell minigame CoD wall climb secret character sweaty goal chams Gran Turismo console Third-Person. Frag dynamic game difficulty balancing NBA 2K Point-and-click beastiary player versus environment kick capture the flag Nintendo 64 Fighting Game Donkey Kong Devil May Cry The Orange Box.
 
-  ## Contributing
+## Contributing
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Single-player cut-scene respawn Flying Simulator Spyro ban Metal Gear. Xbox Grand Theft Auto IV map role-playing video game PSP console metroidvania. Flip-screen Bullet Hell minigame CoD wall climb secret character sweaty goal chams Gran Turismo console Third-Person. Frag dynamic game difficulty balancing NBA 2K Point-and-click beastiary player versus environment kick capture the flag Nintendo 64 Fighting Game Donkey Kong Devil May Cry The Orange Box.
 
-  ## Credits
+## Credits
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Single-player cut-scene respawn Flying Simulator Spyro ban Metal Gear. Xbox Grand Theft Auto IV map role-playing video game PSP console metroidvania. Flip-screen Bullet Hell minigame CoD wall climb secret character sweaty goal chams Gran Turismo console Third-Person. Frag dynamic game difficulty balancing NBA 2K Point-and-click beastiary player versus environment kick capture the flag Nintendo 64 Fighting Game Donkey Kong Devil May Cry The Orange Box.
 
-  ## License
+## License
 
-  This project was made with the AGPL_v3 license.
+This project was made with the MPL_2.0 license.
 
