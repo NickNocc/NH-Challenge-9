@@ -1,19 +1,17 @@
-# Employee Profile Generator
-![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/NickNocc/NH-Profile-Generator?style=flat&logo=appveyor)
-![badge](https://img.shields.io/badge/license--blue)
+# Employee Tracker
+![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/NickNocc/NH-Employee-Tracker?style=flat&logo=appveyor)
 ## Description
   
-This app allows you to create profiles for your employees. These profiles include  managers, engineers, and interns. This file runs from the command line and will prompt the user for information required for their job. Once all of your employees are added the app generates a HTML document with a profile for every employee added.
-
+This app uses mysql to create a database for a given business. The database includes departments, roles, and employees as well as all the information you would expect to accompany them. The app is run through a command line prompt and provides you with a variety of options for viewing, adding, or updating data.
 
 
 ## Installation
 
-This app requires Inquirer to run. To install navigate to root of the directory and run "npm i inquirer -y". Jest was also used in creating this app, if you wish to run the tests jest can be installed by running "npm i jest" in the root. In addition to inquirer, this app also uses inquirer loop which can be installed by running "npm i inquirer-loop".
-
-## Usage
-
-
+* Copy this repo from GitHub to your local machine.
+* Open your preferred command line program and navigate the the root directory.
+* Run 'npm i' to install of the necessary dependecies.
+* Use 'npm start' to start the program.
+***
 
 ## Questions
 
@@ -22,23 +20,4 @@ This app requires Inquirer to run. To install navigate to root of the directory 
 GitHub: https://github.com/NickNocc </br>
 Email: haretakis4@gmail.com
 
-## Tests
-
-
-
-## Features
-
-
-
-## Contributing
-
-
-
-## Credits
-
-
-
-## License
-
-This project was made with the None license.
-
+[Video Tutorial](https://watch.screencastify.com/v/YminmlJ7K6RrkeNbKN41)
