@@ -1,17 +1,19 @@
-# Employee Tracker
-![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/NickNocc/NH-Employee-Tracker?style=flat&logo=appveyor)
+# NoSQL Social Network API
+![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/NickNocc/NH-NoSQL-Social-Network-API?style=flat&logo=appveyor)
+![badge](https://img.shields.io/badge/license--blue)
 ## Description
   
-This app uses mysql to create a database for a given business. The database includes departments, roles, and employees as well as all the information you would expect to accompany them. The app is run through a command line prompt and provides you with a variety of options for viewing, adding, or updating data.
+A simple but complete backend for a social network site. This app allows for users to create an account, add friends, post thoughts, and react to other thoughts. The app is simple, but allowes room for expansion, both in the front and back end.
+
 
 
 ## Installation
 
-* Copy this repo from GitHub to your local machine.
-* Open your preferred command line program and navigate the the root directory.
-* Run 'npm i' to install of the necessary dependecies.
-* Use 'npm start' to start the program.
-***
+To install first copy the repository to your machine. Next navigate to the root directory in the command line and run `npm install` for the necessary dependicies. Finally to start the server run `npm start` and you're all set!
+
+## Usage
+
+
 
 ## Questions
 
@@ -20,4 +22,23 @@ This app uses mysql to create a database for a given business. The database incl
 GitHub: https://github.com/NickNocc </br>
 Email: haretakis4@gmail.com
 
-[Video Tutorial](https://watch.screencastify.com/v/YminmlJ7K6RrkeNbKN41)
+## Tests
+
+
+
+## Features
+
+
+
+## Contributing
+
+
+
+## Credits
+
+
+
+## License
+
+This project was made with the None license.
+
